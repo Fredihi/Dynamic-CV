@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Spectral', serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/mountain.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: 0px 5px 5px black;
+    
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+nav ul li a:hover{
+    color: rgb(163, 108, 189);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.dropbtn{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    background-color: black;
+}
+.dropbtn:hover{
+    color: rgb(163, 108, 189);
+    transition:0.5s;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    min-width: 30px;
+    z-index: 1;
+    right: auto;
+    left: 25px;
+}
+.dropdown-content a{
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: rgb(163, 108, 189);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+.dropdown:hover .dropbtn{
+    background-color: rgb(0, 0, 0);
+}
+.intro{
+    color:white;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+.intro h2{
+    font-size: 35px;
+    text-decoration: underline;
+}
+.intro span{
+    text-decoration: underline;
+}
+h1{
+    font: 800 40px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-size: 50px;
+}
+h1:hover{
+    -webkit-text-fill-color: black;
+    color: rgb(163, 108, 189);
+    font-size: 60px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.about{
+    width: 100%;
+    background-color: black;
+    padding: 100px 0px;
+}
+.about-text{
+    width: 550px;
+}
+.about img{
+    height:auto;
+    width: 300px;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.about-text h2{
+    color: white;
+    font: 800 40px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.about-text h2:hover{
+    -webkit-text-fill-color: black;
+    color: rgb(163, 108, 189);
+    font-size: 60px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.main{
+    width: 1130px;
+    height: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    background: #353535;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 30%;
+}
+.foot-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}

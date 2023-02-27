@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>CV Alfred</title>
+    <link rel ="stylesheet" href ="CSS/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Spectral:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <div class ="banner">
+            <nav>
+                <h2></h2>
+                <ul>
+                    <li><a href ="index.html">Home</a></li>
+                    <li><a href="/index.html#main">About Me</a></li>
+                    <li><a href="portfolio.html"><span style="color:rgb(163, 108, 189)">Portfolio</span></a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn">Social Media</button>
+                    <div class="dropdown-content">
+                        <a href="#"><img src="icons/facebook.png" height="40px" width="40px"></a>
+                        <a href="#"><img src="icons/instagram.png" height="40px" width="40px"></a>
+                        <a href="#"><img src="icons/linkedin.png" height="40px" width="40px"></a>
+                    </div>
+                </div>
+            </nav>
+            <section class="main">
+                <div class="intro">
+                    <h1>Welcome to my Portfolio</h1>
+                    <h3>Below I've listed some of my school-projects</h3>
+                    <h3>Feel free to check them out </h3>
+                </div>
+            </section>
+        </div>
+        <div class="project-list">
+            <ul>
+                <li><label for="chkBox1">Chessboard</label></li>
+                <li><label for="chkBox2">Bank-App</label></li>
+                <li><label for="chkBox3">School-Database</label></li>
+                <li><label for="chkBox4">Number Guessing Game</label></li>
+            </ul>
+        </div>
+        <section class="portfolio-section">
+            <div class="projects">
+                <div class="mainContent">
+                    <input type ="checkbox" name="s" id="chkBox1">
+                    <div class="box1">
+                        <div class="bx1"></div>
+                        <div class="bx2">
+                                <h2>Chessboard</h2>
+                                <p>As a task for school I made a very simple console chessboard in .NET where you can choose what colour of your 
+                                pieces should be, if you would like to check it out on GitHub you can do so by clicking this <a href ="https://github.com/Fredihi/ConsoleChessBoard" target="_blank">link</a></p>
+                            <div class="close-box">
+                                <label for="chkBox1" class="box1-close">X</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainContent2">
+                    <input type ="checkbox" name="s" id="chkBox2">
+                    <div class="box2">
+                        <div class="bankbx1"></div>
+                        <div class="bx2">
+                            <h2>Bank-App</h2>
+                            <p>For last project of our C# course we made a console Bank App where you could transfer "money" between different accounts and such, it was a pretty fun project and since I wasn't very familiar with C# it took me some time, if you'd like to check it out just press this <a href ="https://github.com/Fredihi/ATM-Project" target="_blank">link</a></p>
+                            <div class="close-box">
+                                <label for="chkBox2" class="box2-close">X</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainContent3">
+                    <input type ="checkbox" name="s" id="chkBox3">
+                    <div class="box3">
+                        <div class="SQLbx1"></div>
+                        <div class="bx2">
+                            <h2>School-Database</h2>
+                            <p>As a last project for our SQL Database course we made a database for a "school" which contained all information about teachers, students and grades which we then used .NET Entity Framework to print out the information to the console. It was really fun seeing the database "communicating" with .NET. </p>
+                            <div class="close-box">
+                                <label for="chkBox3" class="box3-close">X</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainContent4">
+                    <input type ="checkbox" name="o" id="chkBox4">
+                    <div class="box4">
+                        <div class="NGGbx1"></div>
+                        <div class="bx2">
+                            <h2>Numbers Guessing Game</h2>
+                            <p>Another task for our C# course was to make a numbers guessing game where you could choose the difficulty and then you had to guess a number depending on the difficulty, it then told you if the number you had to guess was higher or lower <a href ="https://github.com/Fredihi/NumbersGame" target="_blank">link</a></p>
+                            <div class="close-box">
+                                <label for="chkBox4" class="box4-close">X</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Click Any Of The Projects Above To Show More</h2>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <ul class="foot-list">
+            <li><a href ="contactme.html">Contact Me</a></li>
+            <li><a href =""><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href ="https://github.com/Fredihi" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href =""><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+</html>
