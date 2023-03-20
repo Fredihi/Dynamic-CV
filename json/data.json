@@ -1,0 +1,22 @@
+{
+    "result": [
+        {
+            "header": "Personal Information",
+            "name": "Alfred Larsson",
+            "email": "alfred.co95@gmail.com",
+            "address": "Tågvägen 4K, 31173 Falkenberg"
+        },
+        {
+            "header": "Past Experiences",
+            "workplace": ["Fynda Warehouse (Intern)", "Lekmer - Warehouse", "Nelly Warehouse", "Willys AB"]
+        },
+        {
+            "header": "Education",
+            "school": "Falkenbergs Gymnasieskola"
+        },
+        {
+            "header": "Linguistics",
+            "language": ["English", "Swedish (Mother tonge)"]
+        }
+    ]
+}
