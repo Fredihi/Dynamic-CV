@@ -1,4 +1,4 @@
-const cv = 'json/data.json'
+const cv = "https://fredihi.github.io/Dynamic-CV/json/data.json"
 const display = document.querySelector("#display-data");
 
 const getData = async () => {
