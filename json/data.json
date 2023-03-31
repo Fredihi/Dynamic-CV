@@ -1,22 +1,23 @@
 {
-    "result": [
+    "personalinfo": [
         {
-            "header": "Personal Information",
-            "name": "Alfred Larsson",
-            "email": "alfred.co95@gmail.com",
-            "address": "Tågvägen 4K, 31173 Falkenberg"
+            "header": "Name",
+            "name": "Alfred Larsson"
         },
+
         {
             "header": "Past Experiences",
-            "workplace": ["Fynda Warehouse (Intern)", "Lekmer - Warehouse", "Nelly Warehouse", "Willys AB"]
+            "name": ["Fynda Warehouse (Intern)" , " Lekmer - Warehouse", " Nelly Warehouse", " Willys AB"]
         },
+
         {
             "header": "Education",
-            "school": "Falkenbergs Gymnasieskola"
+            "name": "Falkenbergs Gymnasieskola - Electrician"
         },
+
         {
             "header": "Linguistics",
-            "language": ["English", "Swedish (Mother tonge)"]
-        }
+            "name": ["English", "Swedish (Mother tonge)"]
+        }  
     ]
 }

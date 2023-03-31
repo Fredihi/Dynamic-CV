@@ -7,11 +7,35 @@ document.getElementById("easteregg").onclick = function(){
 }
 
 
-const keyBoard = document.querySelector('.keyboard')
+// const keyBoard = document.querySelector('.keyboard')
+let num1 = 0;
+let num2 = 0;
+let num3 = 0;
+let num4 = 0;
+document.addEventListener("keydown", e => {
+    if(e.key === "1" && num1 === 0){
+        num1 = 1;
+    }
+    else if(e.key === "3"&& num1 === 1 && num2 === 0){
+        num2 = 1;
+    }
+    else if(e.key === "3" && num2 === 1 && num3 === 0){
+        num3 = 1;
+    }
+    else if(e.key === "7" && num3 === 1){
+        num4 = 1;
+        alert("You found the last hidden easter egg!");
+    }
+    else if (e.key === "1" && num === 1){
+        num2 = 0;
+        num3 = 0;
+        num4 = 0;
+    }
+    else{
+        num1 = 0;
+        num2 = 0;
+        num3 = 0;
+        num4 = 0;
+    }
+})
 
-// keyBoard.addEventListener('keydown', e => {
-//     console.log(e)
-//     if(e.keyCode === 49 && e.keyCode === 51 && e.keyCode === 51 && e.keyCode === 55){
-//         alert('HEJ')
-//     }
-// })
