@@ -1,8 +1,8 @@
-// const cv = '../json/data.json'
+const cv = 'json/data.json'
 const display = document.querySelector("#display-data");
 
 const getData = async () => {
-    const res = await fetch ('../json/data.json');
+    const res = await fetch (cv);
     const data = await res.json();
     return data
 }
