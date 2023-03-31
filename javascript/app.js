@@ -1,5 +1,5 @@
 function changeBackground(banner){
-    document.getElementById("banner").style.backgroundImage="url(/images/rickroll.jpg)";
+    document.getElementById("banner").style.backgroundImage="url(../images/rickroll.jpg)";
 }
 
 document.getElementById("easteregg").onclick = function(){

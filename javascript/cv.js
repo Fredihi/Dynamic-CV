@@ -1,4 +1,4 @@
-const cv = "/json/data.json"
+const cv = "../json/data.json"
 const display = document.querySelector("#display-data");
 
 const getData = async () => {
